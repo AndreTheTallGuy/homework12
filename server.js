@@ -195,6 +195,7 @@ function removeEmployee() {
       name: "employeeRemove",
       choices: employArray
     })
+
     .then(totalInfo => {
       var split = totalInfo.employeeRemove.split(" ");
       connection.query(
