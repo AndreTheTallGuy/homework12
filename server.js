@@ -186,7 +186,6 @@ function addEmployee() {
       );
     });
 }
-
 function removeEmployee() {
   inquirer
     .prompt({
